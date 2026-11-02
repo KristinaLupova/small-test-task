@@ -95,6 +95,9 @@ button:focus-visible {
   background: #1e3a5f;
   border: 2px solid currentColor;
   border-radius: 6px;
+  z-index: 999999;
+  max-height: 120px;
+  overflow-y: auto;
 }
 
 .dropdown-menu.up {
