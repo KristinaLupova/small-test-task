@@ -2,8 +2,10 @@ import { useState } from 'react';
 import { greeting } from './Greeting';
 import Dropdown from './Dropdown';
 
+// якщо б опції як у реальному проекті то потрібен санітайзинг 
 const OPTIONS = ['Option 1', 'Option 2', 'Option 3', 'Option 4', 'Option 5'];
 
+// тести на логіку застосунку
 export default function App() {
   const [selectedIndex, setSelectedIndex] = useState(0);
 

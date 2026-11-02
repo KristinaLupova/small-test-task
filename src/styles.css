@@ -115,6 +115,7 @@ button:focus-visible {
   background: rgba(255, 212, 59, 0.2);
 }
 
+/* міг би бути як міксін щоб перевикористовувати цого по коду */
 .card-description {
   display: -webkit-box;
   line-clamp: 2;      
