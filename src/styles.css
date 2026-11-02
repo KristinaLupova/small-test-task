@@ -111,3 +111,12 @@ button:focus-visible {
 .dropdown-menu li:hover {
   background: rgba(255, 212, 59, 0.2);
 }
+
+.card-description {
+  display: -webkit-box;
+  line-clamp: 2;      
+  -webkit-box-orient: vertical;  
+  overflow: hidden;         
+  line-height: 1.5;            
+  max-height: 3em;           
+}
